@@ -59,7 +59,7 @@ export class HomePage {
       console.log("Se ha refrescado");
       this.animales = ANIMALES.slice(0);
       refresher.complete();
-    }, 1500);
+    }, 1400);
   }
 
   reordenar_animales( indices:any ){
