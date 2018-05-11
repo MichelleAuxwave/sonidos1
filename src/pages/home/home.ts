@@ -54,7 +54,7 @@ export class HomePage {
   }
 
   recargar_animales( refresher:Refresher ){
-    console.log("inicio del Refresher");
+    console.log("Inicio del Refresher");
     setTimeout(() => {
       console.log("Se ha refrescado");
       this.animales = ANIMALES.slice(0);
